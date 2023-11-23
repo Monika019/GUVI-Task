@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Profile</title>
+</head>
+<body>
+  <div class="pro_container">
+    <div class="profile_container">
+      <h2>Welcome, [Username]!</h2>
+      <p>Age: [User Age]</p>
+      <p>DOB: [User DOB]</p>
+      <p>Contact: [User Contact]</p>
+      <h3>Update Additional Details</h3>
+      <form action="php/profile.php" method="POST">
+        <label for="age">Age:</label>
+        <input type="text" name="age"><br><br>
+        <label for="dob">DOB:</label>
+        <input type="text" name="dob"><br><br>
+        <label for="contact">Contact:</label>
+        <input type="text" name="contact"><br><br>
+        <button type="submit" id="submit">Update Profile</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
