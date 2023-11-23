@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: peachpuff;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: coral;
+    width: 25%;
+    height: 50vh;
+    align-items: center; 
+    margin: 2px;
+    padding: 15px;
+}
+.title{
+    text-align: center;
+}
+.btn_container {
+    margin: 2px;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+}
+.form_container{
+    margin: auto;
+    padding: 10%;
+    border: none;
+    border-radius: 4px;
+    justify-content: space-between;
+    display: flex;
+}
+input{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center; 
+    background-color: transparent;
+}
+.pro_container{
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;  
+    align-items: center; 
+    margin: 2px;
+    padding: 15px;
+}
+.reg_container{
+    display: block;
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;
+    align-items: center; 
+    margin: 2px;
+    padding: 15px;
+}
+.log_container{
+    display: block;
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;
+    align-items: center; 
+    margin: 2px;
+    padding: 15px;
+}
+#reg, #log, #pro{
+    color: aliceblue;
+}
